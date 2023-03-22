@@ -1,0 +1,11 @@
+PS C:\Users\...> cd Desktop
+
+PS C:\Users\...\Desktop> New-Item ASIL.txt
+PS C:\Users\...\Desktop> Set-Content ASIL.txt 'mesajınızı yazın.'
+PS C:\Users\...\Desktop> Get-Content .\ASIL.txt
+PS C:\Users\...\Desktop> Get-FileHash ASIL.txt -Algortihm MD5
+
+PS C:\Users\...\Desktop> New-Item SAHTE.txt
+PS C:\Users\...\Desktop> Set-Content SAHTE.txt 'mesajınızı yazın.(1)'
+PS C:\Users\...\Desktop> Get-Content .\SAHTE.txt
+PS C:\Users\...\Desktop> Get-FileHash SAHTE.txt -Algortihm MD5
